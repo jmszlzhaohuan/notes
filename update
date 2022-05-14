@@ -1,0 +1,29 @@
+1. deep mimo数据集
+  https://pan.baidu.com/s/1nMihIAOFk65Beqh-RBtsEQ 
+  提取码：i9om
+2. tensorflow
+  http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+3. 清华pip源
+  https://pypi.tuna.tsinghua.edu.cn/simple/
+4. 清华anaconda换源
+  channels:
+    - defaults
+  show_channel_urls: true
+  default_channels:
+    - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+    - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+    - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+  custom_channels:
+    conda-forge: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+    msys2: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+    bioconda: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+    menpo: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+    pytorch: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+    pytorch-lts: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+    simpleitk: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+5. cmd中直接进入指定路径
+  cd /d H:\anaconda\envs\tf2\Scripts
+
+
+
+
