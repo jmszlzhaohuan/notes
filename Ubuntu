@@ -1,0 +1,19 @@
+1. 安装双系统后时间差半小时
+  Ubuntu：
+    Ctrl+Alt+T打开终端，输入“ timedatectl set-local-rtc 1”回车，ok。
+    
+  Windows：
+    使用Win+R调出运行窗口，输入regedit打开注册表编辑器，或者直接到控制面板找到注册表编辑器。
+    HEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Contorl/TimeZoneInformation/
+    添加类型为REG_DWORD的项，命名为RealTimeIsUniversal值为1，重启
+    
+  参考链接: https://www.cnblogs.com/tonyc/p/7740201.html
+            https://jingyan.baidu.com/article/b7001fe15510b44f7282ddfa.html
+
+2. 关闭系统弹出错误报告
+  打开终端，输入　sudo gedit /etc/default/apport
+  把里面的enabled=1改成enabled=0，保存
+  （可能会弹出warning，不用管）
+  重启
+3. 
+
