@@ -6,7 +6,6 @@ from selenium.webdriver.common.keys import Keys
 import requests
 
 
-
 q = requests.get("http://www.baidu.com",timeout=5)
 m = re.search(r'STATUS OK',q.text)
 if m:
