@@ -1,0 +1,78 @@
+# 查看硬盘使用情况
+df -h  
+  
+# 激活 anaconda 环境
+ source activate
+
+# 退出 anaconda 环境
+ source deactivate
+
+# opencv conda安装
+conda install -c menpo opencv
+conda install -c menpo opencv3=3.1.0
+conda install opencv
+
+# tqdm安装
+conda install -c conda-forge tqdm
+
+#  anaconda python no module named 'past'的解决方法
+pip install future/conda install future
+
+# pyclipper安装
+conda install pyclipper / conda install -c conda-forge pyclipper
+
+# No module named 'skimage'
+conda install scikit-image
+
+# No module named 'Polygon'
+只能pip安装 pip install Polygon3
+
+
+# ubuntu下如何批量获取某一文件下的所有文件的路径，并导入到txt文档中 
+ls -R  /dir/*.jpg > file.txt 
+(dir里为文件路径)
+ls -R /home/dj/zh/DBNet.pytorch-master/datasets/train/img/*.jpg > file.txt
+
+# 激活conda环境
+source activate
+
+#  pip和conda批量导出、安装组件(requirements.txt)
+# pip批量导出包含环境中所有组件的requirements.txt文件
+
+pip freeze > requirements.txt
+
+# pip批量安装requirements.txt文件中包含的组件依赖
+
+pip install -r requirements.txt
+
+# conda批量导出包含环境中所有组件的requirements.txt文件
+
+conda list -e > requirements.txt
+
+# conda批量安装requirements.txt文件中包含的组件依赖
+
+conda install --yes --file requirements.txt
+
+# conda 安装 wxpython
+conda install wxpython
+
+# ubuntu显示隐藏文件快捷键
+ctrl+h
+
+# pip临时使用官方源
+pip install scrapy -i https://pypi.Python.org/simple/
+
+# conda 安装onnx
+conda install -c conda-forge onnx 
+
+# 查看conda虚拟环境列表
+conda info -e
+
+# pip永久换源后 临时使用官方源
+pip install scrapy -i https://pypi.Python.org/simple/
+
+# 查看显卡实时动态信息(显存，供电，使用率等)
+watch nvidia-smi
+
+# conda安装scipy
+conda install scipy
