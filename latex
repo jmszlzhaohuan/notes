@@ -1,0 +1,10 @@
+1. 大写罗马字母
+  \uppercase\expandafter{\romannumeral20} 
+2. 小写罗马数字
+  \romannumeral1       
+3. 双下标示例
+  {D_{{e_{jk}}}}(t)    
+4. 斜体变正体
+  $\rm dist^\pm(\textbf{x},e^i)$ 
+5. 上标一撇
+  d^{\prime}  
