@@ -23,6 +23,12 @@
     simpleitk: http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
 5. cmd中直接进入指定路径
   cd /d H:\anaconda\envs\tf2\Scripts
+6. jupyter notebook 指定conda环境：
+  1.conda activate 环境
+  2.conda install ipykernel
+  3. 将环境写入notebook的kernel中
+  python -m ipykernel install --user --name 环境名1 --display-name “python 环境名2”   # 环境名1为anaconda里已创建的环境名,环境名2为在jupyter notebook里显示的自定义环境名
+  4.打开jupyter notebook
 
 
 
